@@ -8,7 +8,7 @@ from prettytable import PrettyTable
 
 baseEndPoint = 'https://dapi.binance.com'
 futuresPremiumIndex = '/dapi/v1/premiumIndex'
-secondsSleep = 1800
+#secondsSleep = 1800
 payload = []
 dias = []
 response = []
@@ -65,4 +65,5 @@ while True:
                 '--------------'] * 7)
         n+=1
     print(t)
-    sleep(secondsSleep)
+    #sleep(secondsSleep)
+
